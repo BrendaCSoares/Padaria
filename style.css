@@ -1,0 +1,35 @@
+:root {
+  /* Neutros base */
+  --branco: #ffffff;
+  --preto-puro: #000000;
+  --preto-suave: #1f1f1f;
+  --preto-carvao: #2a2a2a;
+  --cinza-escuro: #333333;
+  --cinza-medio: #777777;
+  --cinza-claro: #eeeeee;
+
+  /* Beges caramelizados (identidade principal) */
+  --bege-caramelo-claro: #E2C9A5;
+  --bege-trigo-tostado: #D6B88C;
+  --bege-crosta-pao: #CFAE7C;
+  --bege-caramelo-suave: #C4A06A;
+  --bege-mel-tostado: #B8905A;
+
+  /* Verde natural (destaque) */
+  --verde-oliva: #7a9b57;
+  --verde-oliva-escuro: #5f7d42;
+  --verde-salvia: #9fb58a;
+
+  /* Marrom e café (apoio visual) */
+  --marrom-cafe: #6b4f2a;
+  --marrom-cacau: #4a3722;
+  --marrom-claro: #8b6a3e;
+
+  /* Destaques sutis */
+  --dourado-suave: #c8a55a;
+  --creme-quente: #f6f0e6;
+
+  /* Sombras */
+  --sombra-header: 0 4px 12px rgba(0, 0, 0, 0.08);
+  --sombra-card: 0 6px 20px rgba(0, 0, 0, 0.12);
+}
