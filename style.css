@@ -19,6 +19,7 @@
   --verde-oliva: #7a9b57;
   --verde-oliva-escuro: #5f7d42;
   --verde-salvia: #9fb58a;
+  --verde-claro:  #f6f0e6;  
 
   /* Marrom e café (apoio visual) */
   --marrom-cafe: #6b4f2a;
@@ -32,4 +33,99 @@
   /* Sombras */
   --sombra-header: 0 4px 12px rgba(0, 0, 0, 0.08);
   --sombra-card: 0 6px 20px rgba(0, 0, 0, 0.12);
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Barra superior */
+.menu {
+  background-color: #5f7d42;
+  padding: 15px 0;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+/* Lista do menu */
+.menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.menu ul li {
+  margin: 0 20px;
+}
+
+.menu ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+.menu ul li a:hover {
+  color: #ff9800;
+}
+
+/* Espaço para o conteúdo não ficar atrás do menu fixo */
+.conteudo {
+  margin-top: 80px;
+  padding: 20px;
+}
+
+/* Logo */
+.logo {
+  margin: 45px;
+  text-align: center;
+  left: 15px;
+  top: 10px;
+}
+/* Texto bem vindo */
+.bem-vindo {
+  margin-bottom:  20px;
+  font-family: 'Segoe Script', cursive;
+  font-size: 35px;
+  text-align: center;
+  color: #46721e;
+}
+
+.apresentacao {
+  padding: 60px 10%;
+}
+
+.bloco {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin-bottom: 60px;
+  background-color: var(--creme-quente);
+  border-radius: 30px;
+  
+}
+
+.imagem img {
+  width: 100%;
+  border-radius: 15px;
+  opacity: 0.95;
+}
+
+.texto {
+  width:50%;
+  font-size: 28px;
+  line-height: 1.8;
+  color: #46721e;
+
+}
+
+.destaque {
+  font-weight: bold;
+  color: #6c2727;
+  text-align: center;
 }
